@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-	//µİ¹é
+	//é€’å½’
 	/*bool isMatch(string s, string p) {		
 		if (p.empty())
 			return s.empty();
@@ -20,7 +20,7 @@ public:
 		}
 	}*/
 
-	//¶¯Ì¬¹æ»®
+	//åŠ¨æ€è§„åˆ’
 	bool isMatch(string s, string p) {
 		int sLen = s.size(), pLen = p.size();
 		vector<vector<bool>> result(pLen + 1, vector<bool>(sLen + 1, false));
