@@ -1,6 +1,11 @@
-You are given an n x n 2D matrix representing an image.
+Given an array of strings, group anagrams together.
 
-Rotate the image by 90 degrees (clockwise).
+For example, given: ["eat", "tea", "tan", "ate", "nat", "bat"], 
+Return:
 
-Follow up:
-Could you do this in-place?
+[
+  ["ate", "eat","tea"],
+  ["nat","tan"],
+  ["bat"]
+]
+Note: All inputs will be in lower-case.
